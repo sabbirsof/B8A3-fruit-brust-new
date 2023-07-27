@@ -20,7 +20,47 @@
     }
 </style>
 </head>
-<body>
+<body  class="font-lato">
+    <!-- navbar section -->
+    <nav class="lg:container mx-auto my-3 lg:my-7">
+        <div class="navbar lg:bg-[#F85559] rounded-full flex flex-row-reverse lg:flex-row">
+            <div class="navbar-center">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>About Us </a>
+                    </li>
+                  <li><a>Shop</a></li>
+                  <li><a>All Fruits</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="navbar-center hidden lg:flex text-white">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li>
+                  <a>About Us </a>
+                  </li>
+                <li><a>Shop</a></li>
+                <li><a>All Fruits</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+              
+            </div>
+            <div class="flex flex-1 justify-center gap-3 text-white"><img class="" src="./images/logo.png" alt="">
+            <h1 class="text-4xl font-bold text-black lg:text-white">Fruit Burst</h1>
+            </div>
+            <div class="navbar-end hidden lg:flex flex-1">
+              <input type="text" placeholder="Search here" class="input input-bordered md:w-auto rounded-full" />
+             </div>
+          </div>
+    </nav>
     
 </body>
 </html>
