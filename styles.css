@@ -1,0 +1,22 @@
+@media screen and (max-width:576px){
+    div.fruits-block{
+        display:none
+       
+        }
+       
+     body{
+        width: 100%;
+        margin:0,auto;
+     }   
+}
+
+ @media screen and (min-width:576px) and (max-width:992px){
+    div.fruits-block{
+        display:none
+        
+    }
+    body{
+        width: 100%;
+        margin: 0,auto;
+    }
+}
